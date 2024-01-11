@@ -16,7 +16,7 @@ sudo apt-get install libxtst-dev
 
 ### 1. Download:
 ```
-git clone https://github.com/arturzxc/grinder.git
+git clone https://github.com/dakishhh/grinder-updated-offsets.git
 ```
 
 ### 2. Get inside the folder
