@@ -27,7 +27,7 @@ git clone https://github.com/dakishhh/grinder-updated-offsets.git
 
 ### 2. Get inside the folder
 ```
-cd grinder
+cd grinder-updated-offsets
 ```
 
 ### 3. Compile the program:
