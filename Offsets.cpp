@@ -1,15 +1,15 @@
-    //GameVersion=v3.0.51.45
+   // se vc leu seu ku é meu
     #pragma once
-
+ 
     //core
    constexpr long OFF_REGION = 0x140000000;                      //[Static]->Region
-    constexpr long OFF_LEVEL = 0x16d5ab0;                         //[Miscellaneous]->LevelName
-    constexpr long OFF_LOCAL_PLAYER = 0x21603f8;                  //[Miscellaneous]->LocalPlayer
-    constexpr long OFF_ENTITY_LIST = 0x1db1cf8;                   //[Miscellaneous]->cl_entitylist
+    constexpr long OFF_LEVEL = 0x16d6ac0;                         //[Miscellaneous]->LevelName
+    constexpr long OFF_LOCAL_PLAYER = 0x2161538;                  //[Miscellaneous]->LocalPlayer
+    constexpr long OFF_ENTITY_LIST = 0x1db2e38;                   //[Miscellaneous]->cl_entitylist
     
     //buttons
-    constexpr long OFF_IN_ATTACK = 0x073cc520;                     //[Buttons]->in_attack
-    constexpr long OFF_IN_JUMP = 0x073cc630;                       //[Buttons]->in_jump
+    constexpr long OFF_IN_ATTACK = 0x073cd6a0;                     //[Buttons]->in_attack
+    constexpr long OFF_IN_JUMP = 0x073cd7a0;                       //[Buttons]->in_jump
     
     // player
     constexpr long OFF_ZOOMING = 0x1b91;                          //[RecvTable.DT_Player]->m_bZooming
@@ -28,10 +28,10 @@
     //weapon
     constexpr long OFF_WEAPON_HANDLE = 0x18f4;                    //[RecvTable.DT_Player]->m_latestPrimaryWeapons
     constexpr long OFF_WEAPON_INDEX = 0x1738;                     //[RecvTable.DT_WeaponX]->m_weaponNameIndex
-    constexpr long OFF_WEAPON_DISCARDED = 0x15ac;                 //[RecvTable.DT_WeaponX]->m_discarded
+    constexpr long OFF_WEAPON_DISCARDED = 0x1559;                 //[RecvTable.DT_WeaponX]->m_discarded
     //glow
     constexpr long OFF_GLOW_ENABLE = 0x26C;                       //[DT_HighlightSettings].?
     constexpr long OFF_GLOW_THROUGH_WALL = 0x28C;                 //[DT_HighlightSettings].?
     constexpr long OFF_GLOW_FIX = 0x268;
     constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x26C;                 //[DT_HighlightSettings].m_highlightServerActiveStates
-    constexpr long OFF_GLOW_HIGHLIGHTS = 0xB7A4E90;
+    constexpr long OFF_GLOW_HIGHLIGHTS = 0xB93DFD0;		//0xB7A4E90
